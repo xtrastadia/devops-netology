@@ -1,0 +1,14 @@
+#!/bin/sh
+
+#This is an example you can edit and use
+#There are numerous parameters you can set, please check Help and Examples folder
+
+export GPU_MAX_HEAP_SIZE=100
+export GPU_MAX_USE_SYNC_OBJECTS=1
+export GPU_SINGLE_ALLOC_PERCENT=100
+export GPU_MAX_ALLOC_PERCENT=100
+export GPU_MAX_SINGLE_ALLOC_PERCENT=100
+export GPU_ENABLE_LARGE_ALLOCATION=100
+export GPU_MAX_WORKGROUP_SIZE=1024
+
+./4b --disable-cpu --algorithm ethash cryptonight_gpu de.conceal.herominers.com:1115  --wallet ccx7Q3TFtw5WBQeCoRn1NGZkqtdDR8skSSsouqUfmNnBHc5dw833orGVrvXyvhWZTP8EPwm4vGa72RXFiQEDbGA61xwYRC2pBJ --password testnet
